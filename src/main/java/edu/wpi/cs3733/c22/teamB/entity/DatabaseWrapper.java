@@ -298,7 +298,7 @@ public class DatabaseWrapper {
     }
 
     public void addEmployee(Employee employee) {
-//        EmployeeDao.addValue(employee);
+        EmployeeDao.addValue(employee);
 //        employeeChanged = true;
 //        SRChanged = true;
     }
