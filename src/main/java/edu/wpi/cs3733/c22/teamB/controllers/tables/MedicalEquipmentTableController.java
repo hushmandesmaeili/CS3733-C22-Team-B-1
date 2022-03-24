@@ -256,7 +256,7 @@ public class MedicalEquipmentTableController extends AbsPage {
         statusField.setValue(loc.getStatus());
         LocationChoice.setValue(loc.getLocation().getNodeID() + ' ' + loc.getLocation().getLongName());
         colorField.setText(loc.getColor());
-        sizeField.setText(loc.getDescription());
+        sizeField.setText(loc.getSize());
         descriptionField.setText(loc.getDescription());
         amountField.setText(String.valueOf(loc.getAmount()));
 
